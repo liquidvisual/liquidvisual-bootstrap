@@ -1,0 +1,117 @@
+# A Typical Sitemap structure
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+  include_children_in_nav: true
+  children:
+    - title: Community
+      url: "#"
+    - title: Testimonials
+      url: "#"
+    - title: Another Page Example
+      url: "#"
+
+- title: Our People
+  url: /our-people/
+  include_children_in_nav: true
+  children:
+    - title: John Smith
+      url: /our-people/john-smith/
+      include_children_in_nav: false
+      children:
+        - title: Social Media
+          url: /our-people/john-smith/social-media/
+        - title: Resume
+          url: /our-people/jogn-smith/social-media/
+
+    - title: John Smith
+      url: /our-people/john-smith/
+    - title: John Smith
+      url: /our-people/john-smith/
+    - title: John Smith
+      url: /our-people/john-smith/
+
+- title: Legal Services
+  url: /legal-services/
+  include_children_in_nav: true
+  children:
+    - title: Business Law
+      url: /legal-services/family-law/
+      bg_color: primary-color
+      featured: true
+
+    - title: Employment & Workplace Relations
+      url: /legal-services/family-law/
+      bg_color: tertiary-color
+
+    - title: Commercial Litigation & Dispute Resolution
+      url: /legal-services/family-law/
+      bg_color: primary-color
+      featured: true
+
+    - title: Family Law
+      url: /legal-services/family-law/
+      bg_color: quaternary-color
+      featured: true
+
+    - title: Domestic Building Disputes
+      url: /legal-services/family-law/
+      bg_color: tertiary-color
+
+    - title: Wills & Estates
+      url: /legal-services/family-law/
+      bg_color: secondary-color
+      featured: true
+
+    - title: Property & Conveyancing
+      url: /legal-services/family-law/
+      bg_color: primary-color
+      featured: true
+
+    - title: Notary
+      url: /legal-services/family-law/
+      bg_color: tertiary-color
+      featured: true
+
+    - title: Intellectual Property Law
+      url: /legal-services/family-law/
+      bg_color: primary-color
+
+    - title: Leasing - Commercial & Retail
+      url: /legal-services/family-law/
+      bg_color: tertiary-color
+
+    - title: Mortgage Law
+      url: /legal-services/family-law/
+      bg_color: quaternary-color
+
+    - title: Superannuation
+      url: /legal-services/family-law/
+      bg_color: secondary-color
+
+- title: Blog/News
+  url: /news/
+  include_children_in_nav: false
+  children:
+    - title: Article Heading
+      url: /news/news-item/
+
+- title: Resources
+  url: /resources/
+
+- title: Contact
+  url: /contact/
+
+##############################
+
+- title: Sitemap
+  url: /sitemap/
+  type: utility
+
+- title: Terms & Conditions
+  url: /terms-and-conditions/
+  type: utility
+
