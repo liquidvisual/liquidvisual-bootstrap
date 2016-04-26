@@ -34,6 +34,17 @@ permalink: /manage/
       // function resizeIframe(obj) {
       //   obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
       // }
+
+      //   $(function() {
+      //       $('.lv-iframe-loader').load(function(){
+
+      //           $(this)[0].style.height = $(this)[0].contentWindow.document.body.scrollHeight + 'px';
+
+      //           $(this).contents().find("body").on('click', function(event) {
+      //               $('.lv-iframe-loader')[0].style.height = $('.lv-iframe-loader')[0].contentWindow.document.body.scrollHeight + 'px';
+      //           });
+      //       });
+      //   });
     </script>
 
 </head>
@@ -46,13 +57,9 @@ permalink: /manage/
             <div id="lv-topbar" data-include="/builder-app/includes/topbar.html"></div>
 
             <div class="lv-stage">
-                <main class="lv-main" data-view></main>
-
-                <iframe class="lv-iframe-loader"  onload="resizeIframe(this)" src="/docs/"></iframe>
-
-                <!-- <div class="lv-iframe-wrapper">
-                    <iframe class="lv-iframe-loader"  onload="resizeIframe(this)" src="/docs/"></iframe>
-                </div> -->
+                <!-- <main class="lv-main" data-view></main> -->
+                <!-- onload="resizeIframe(this)" scrolling="no" -->
+                <iframe class="lv-iframe-loader"  src="/docs/"></iframe>
 
             </div>
 
