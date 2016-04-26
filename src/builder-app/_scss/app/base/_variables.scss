@@ -25,7 +25,7 @@ $lvb-button-color: saturate(darken(#EFF1F4, 5%), 10%); //#D5DAE6;
 // App Menu
 //=========================================
 
-$app-menu-width-small: 320px;
+$app-menu-width-small: 280px;
 $app-menu-width-medium: 320px; //370px;
 
 $app-menu-toolbar-width: 55px;
@@ -35,3 +35,9 @@ $app-menu-toolbar-width: 55px;
 //=========================================
 
 $lv-stage-top-offset: 8px;
+
+//=========================================
+// Footer
+//=========================================
+
+$lv-footer-height: 44px;
