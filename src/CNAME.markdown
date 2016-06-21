@@ -1,5 +1,6 @@
 ---
+permalink: "./CNAME"
 output: true
-permalink: ./CNAME
 ---
+
 {{site.data.settings.cname}}

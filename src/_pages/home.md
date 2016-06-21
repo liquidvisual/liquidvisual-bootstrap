@@ -1,7 +1,7 @@
 ---
-layout: homepage
 title: Homepage
-permalink: /
+permalink: "/"
+layout: homepage
 regenerate: true
 ---
 

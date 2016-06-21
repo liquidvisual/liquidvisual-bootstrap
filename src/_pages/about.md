@@ -1,7 +1,7 @@
 ---
-layout: internal/text_page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: internal/text_page
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your

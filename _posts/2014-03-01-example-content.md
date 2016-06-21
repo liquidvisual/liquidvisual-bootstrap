@@ -1,8 +1,11 @@
 ---
-layout: internal/post
-date: 2014-03-01
 title: Example content
-categories: jekyll example
+date: 2014-03-01 00:00:00 Z
+categories:
+- src
+- jekyll
+- example
+layout: internal/post
 ---
 
 <div class="message"> Howdy! This is an example blog post that shows several
